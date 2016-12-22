@@ -52,10 +52,10 @@ const NO_HINT = 'none';
 
 const SSML_SPEAK_START = '<speak>';
 const SSML_SPEAK_END = '</speak>';
-const COLD_WIND_AUDIO = '<audio src="https://xxx/NumberGenieEarcon_ColdWind.wav">cold wind sound</audio>';
-const STEAM_ONLY_AUDIO = '<audio src="https://xxx/NumberGenieEarcon_SteamOnly.wav">steam sound</audio>';
-const STEAM_AUDIO = '<audio src="https://xxx/NumberGenieEarcons_Steam.wav">steam sound</audio>';
-const YOU_WIN_AUDIO = '<audio src="https://xxx/NumberGenieEarcons_YouWin.wav">winning sound</audio>';
+const COLD_WIND_AUDIO = '<audio src="https://s3-eu-west-1.amazonaws.com/google-actions/genie-sample/NumberGenieEarcon_ColdWind.wav">cold wind sound</audio>';
+const STEAM_ONLY_AUDIO = '<audio src="https://s3-eu-west-1.amazonaws.com/google-actions/genie-sample/NumberGenieEarcon_SteamOnly.wav">steam sound</audio>';
+const STEAM_AUDIO = '<audio src="https://s3-eu-west-1.amazonaws.com/google-actions/genie-sample/NumberGenieEarcons_Steam.wav">steam sound</audio>';
+const YOU_WIN_AUDIO = '<audio src="https://s3-eu-west-1.amazonaws.com/google-actions/genie-sample/NumberGenieEarcons_YouWin.wav">winning sound</audio>';
 
 const ANOTHER_GUESS_PROMPT = ['What\'s your next guess?', 'Have another guess?', 'Try another.'];
 const LOW_PROMPTS = ['It\'s lower than %s.'];
